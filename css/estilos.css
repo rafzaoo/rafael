@@ -1,0 +1,110 @@
+body, h1{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: #4215bd; */
+}
+    nav{
+        width: 1100px;
+        /*height: 100px;/*
+        /*outline: 2px dashed #f43838;*/
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #nav_esq, #nav_dir{
+        display: inline-block;
+        vertical-align: 100%;
+        width: 500px;
+        height: 50px;
+        /* background-color: #8a2be2; */
+        
+    }
+    #nav_esq a, #nav_dir a{
+        text-decoration: none;
+        text-transform: uppercase;
+        /* background-color: #dbcaeb; */
+        padding: 5px;
+        font-weight: 600;
+        color: #000000;
+    }
+    #nav_esq a:hover, #nav_dir a:hover{
+        background-color: #caebcd;
+        color: #ee250a;
+        text-decoration: underline;
+
+       
+        
+
+    }
+    #nav_logo{
+        display: inline-block;
+        width: 80px;
+        height: 50px;
+       /* background-color: #8a2be2;*/
+    }
+    #nav_dir{
+        display: inline-block;
+        width: 500px;
+        height: 50px;
+       /* background-color: #8a2be2;*/
+    }
+    #nav_logo img{
+        width: 100%;
+    }
+    .menu_atual{
+        background-color: #caebcd;
+        color: #ee250a;
+        text-decoration: underline;
+
+       
+        
+
+    }
+  
+main{
+    text-align: center;
+    width: 1100px;
+    height: 1000px;
+    background-color: #769090;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer{
+    height: 300px;
+    background-color: #4f414d;
+
+
+}
+main div{
+    display: inline-block;
+    width: 150px;
+    height:300px;
+    background-color: #ee250a;
+    margin: 20px;
+}
+#contato_form, #contato_img{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    background-color: aquamarine;
+    vertical-align: top;
+   
+ 
+}
+#contato_form{
+    text-align: left;
+    padding: 15px;
+
+}
